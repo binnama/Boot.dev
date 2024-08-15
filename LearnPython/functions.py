@@ -96,7 +96,7 @@ print("")
 
 def curse(weapon_damage):
     lesser_cursed = weapon_damage * 0.5
-    greater_cursed = weapon_damage * 0.75
+    greater_cursed = weapon_damage * 0.25
     return lesser_cursed, greater_cursed
 
 def test(weapon_damage):
